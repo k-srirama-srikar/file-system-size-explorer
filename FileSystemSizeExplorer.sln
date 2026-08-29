@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.12023.21 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemComposite", "FileSystemComposite\FileSystemComposite.csproj", "{A1E4B4B0-1E7B-4B2E-9C1A-5D6E7F8A9B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemComposite.Tests", "FileSystemComposite.Tests\FileSystemComposite.Tests.csproj", "{B2F5C5C1-2F8C-4C3F-8D2B-6E7F8A9B0C21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C6D6D72-3A9D-4D40-9E3C-7F8A9B0C1D32}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1E4B4B0-1E7B-4B2E-9C1A-5D6E7F8A9B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E4B4B0-1E7B-4B2E-9C1A-5D6E7F8A9B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E4B4B0-1E7B-4B2E-9C1A-5D6E7F8A9B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E4B4B0-1E7B-4B2E-9C1A-5D6E7F8A9B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F5C5C1-2F8C-4C3F-8D2B-6E7F8A9B0C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F5C5C1-2F8C-4C3F-8D2B-6E7F8A9B0C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F5C5C1-2F8C-4C3F-8D2B-6E7F8A9B0C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F5C5C1-2F8C-4C3F-8D2B-6E7F8A9B0C21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D5E6F70-8192-4A3B-BC4D-5E6F70819243}
+	EndGlobalSection
+EndGlobal
